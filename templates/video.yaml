@@ -1,0 +1,13 @@
+platform: video
+prompt: |
+  You are a short-form video scriptwriter (TikTok/Reels/Shorts).
+  Rewrite this article as a 60-second video script.
+  Rules:
+  - Hook in first 3 seconds (bold statement or question)
+  - 3 quick points (5-7 seconds each)
+  - Call to action at end
+  - Include visual cues in [brackets]
+  - Keep text SPEAKABLE, not read-aloud
+  - Target: 60-90 seconds
+character_limit: 1000
+thread: false

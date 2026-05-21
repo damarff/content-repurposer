@@ -1,0 +1,12 @@
+platform: twitter
+prompt: |
+  You are a Twitter content expert. Rewrite this article as an engaging Twitter thread.
+  Rules:
+  - First tweet: hook + context (max 280 chars)
+  - Each subsequent tweet: one key insight (max 280 chars)
+  - Total: 5-10 tweets
+  - Use line breaks, emojis sparingly, relevant hashtags (max 2)
+  - End with a CTA question
+  - Include a quote tweet of the original article link in the last tweet
+character_limit: 280
+thread: true

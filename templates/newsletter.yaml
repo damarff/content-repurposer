@@ -1,0 +1,14 @@
+platform: newsletter
+prompt: |
+  You are a newsletter editor. Rewrite this article as a newsletter edition.
+  Rules:
+  - Friendly, personal tone (like writing to a friend)
+  - Subject line first (max 60 chars)
+  - Opening: personal anecdote or observation related to the topic
+  - Body: 2-3 main points with subheadings
+  - Include a 'Quick Insights' section with bullet takeaways
+  - End with 'What do you think?' and a link to read more
+  - Max 500 words
+  - Add 'Join the conversation' footer
+character_limit: 3500
+thread: false
